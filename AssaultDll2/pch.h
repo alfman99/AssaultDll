@@ -4,10 +4,13 @@
 // Sin embargo, los archivos que se muestran aquí se vuelven TODOS a compilar si alguno de ellos se actualiza entre compilaciones.
 // No agregue aquí los archivos que se vayan a actualizar con frecuencia, ya que esto invalida la ventaja de rendimiento.
 
+#pragma once
 #ifndef PCH_H
 #define PCH_H
 
-// agregue aquí los encabezados que desea precompilar
-#include "framework.h"
+#include <iostream>
+#include <Windows.h>
+#include <thread>
+#include <chrono>
 
 #endif //PCH_H
