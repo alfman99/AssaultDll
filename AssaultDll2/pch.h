@@ -8,9 +8,18 @@
 #ifndef PCH_H
 #define PCH_H
 
+
+// Link minhook lib
+#if _WIN64
+#pragma comment(lib, "libMinHook.x64.lib")
+#else
+#pragma comment(lib, "libMinHook.x86.lib")
+#endif
+
 #include <iostream>
 #include <Windows.h>
 #include <thread>
 #include <chrono>
+#include <gl/GLU.h>
 
 #endif //PCH_H

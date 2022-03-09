@@ -27,3 +27,11 @@ void Logger::Terminate() {
 
 #endif
 }
+
+void Logger::Info(std::string message) {
+#if _DEBUG
+    std::cout << message << std::endl;
+#else
+
+#endif
+}
