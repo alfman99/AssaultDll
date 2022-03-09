@@ -11,17 +11,30 @@ namespace HackBase {
 }
 
 namespace Logger {
+
 	extern FILE* f;
 	void Initialize();
 	void Terminate();
-	void Info(std::string);
+	
+	void Info(std::string message);
+
 }
 
-namespace GameFunctions {
+namespace GameFunction {
 
-	namespace Headers {
+	namespace Header {
 		typedef void(__cdecl* i_ChatMessage)(const char*, const char*);
 		typedef void(__cdecl* i_BottomMessage)(const char*);
+	}
+
+	namespace Offset {
+		extern DWORD ChatMessage;
+		extern DWORD BottomMessage;
+	}
+
+	namespace Use {
+		extern Header::i_ChatMessage ChatMessage;
+		extern Header::i_BottomMessage BottomMessage;
 	}
 
 }
@@ -31,16 +44,16 @@ namespace Hook {
 	void Initialize();
 	void Terminate();
 
-	namespace Headers {
-		typedef BOOL(__stdcall* i_wglSwapBuffers)(HDC hDC);
+	namespace Header {
+		typedef BOOL(__stdcall* i_wglSwapBuffers)(HDC);
 	}
 
 	namespace Original {
-		extern Headers::i_wglSwapBuffers o_wglSwapBuffers;
+		extern Header::i_wglSwapBuffers o_wglSwapBuffers;
 	}
 
 	namespace Detour {
-		BOOL __stdcall h_wglSwapBuffers(HDC hDC);
+		BOOL __stdcall h_wglSwapBuffers(HDC);
 	}
 	
 }

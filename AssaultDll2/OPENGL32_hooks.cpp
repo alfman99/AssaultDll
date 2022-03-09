@@ -11,12 +11,11 @@ BOOL __stdcall Hook::Detour::h_wglSwapBuffers(HDC hDC) {
 		return Hook::Original::o_wglSwapBuffers(hDC);
 	}
 
+	glBegin(GL_LINES);
+	glVertex2f(200, 200);
+	glVertex2f(400, 400);
+	glEnd();
 
-	if (test % 60 == 0) {
-		Logger::Info("OPENGL hook working! :)");
-	}
-
-	test++;
 
 	return Hook::Original::o_wglSwapBuffers(hDC);
 

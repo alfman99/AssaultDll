@@ -173,6 +173,7 @@
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="GameFunctions.cpp" />
     <ClCompile Include="Logger.cpp" />
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="HackBase.cpp" />

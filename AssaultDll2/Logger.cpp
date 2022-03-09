@@ -24,7 +24,7 @@ void Logger::Terminate() {
     // Cleanup, free console memory
     FreeConsole();
 #else
-
+    
 #endif
 }
 

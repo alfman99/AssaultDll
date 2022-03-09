@@ -14,12 +14,13 @@
 #pragma comment(lib, "libMinHook.x64.lib")
 #else
 #pragma comment(lib, "libMinHook.x86.lib")
+#pragma comment(lib, "OpenGL32.lib")
 #endif
 
 #include <iostream>
 #include <Windows.h>
 #include <thread>
 #include <chrono>
-#include <gl/GLU.h>
+#include <gl/GL.h>
 
 #endif //PCH_H

@@ -41,8 +41,11 @@
     <ClCompile Include="OPENGL32_hooks.cpp">
       <Filter>Archivos de origen\Hooks</Filter>
     </ClCompile>
+    <ClCompile Include="GameFunctions.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
     <ClCompile Include="Hooks.cpp">
-      <Filter>Archivos de origen\Hooks</Filter>
+      <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

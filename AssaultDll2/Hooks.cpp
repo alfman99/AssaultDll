@@ -3,14 +3,14 @@
 #include "Cheat.hpp"
 
 
-Hook::Headers::i_wglSwapBuffers Hook::Original::o_wglSwapBuffers = nullptr;
+Hook::Header::i_wglSwapBuffers Hook::Original::o_wglSwapBuffers = nullptr;
+
 
 void Hook::Initialize() {
 	MH_Initialize();
 	
 	// OPENGL32.dll - wglSwapBuffers
 	MH_CreateHookApi(L"OPENGL32.dll", "wglSwapBuffers", &Hook::Detour::h_wglSwapBuffers, reinterpret_cast<void**>(&Hook::Original::o_wglSwapBuffers));
-
 
 	MH_EnableHook(MH_ALL_HOOKS);
 
