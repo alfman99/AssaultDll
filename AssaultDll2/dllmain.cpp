@@ -13,7 +13,7 @@ DWORD WINAPI CheatEntry(LPVOID param) {
 
     HackBase::Deject();
 
-    FreeLibraryAndExitThread((HMODULE)param, TRUE);
+    FreeLibraryAndExitThread((HMODULE)param, FALSE);
     return 0;
 }
 

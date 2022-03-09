@@ -18,12 +18,9 @@ void Hook::Initialize() {
 }
 
 void Hook::Terminate() {
+
 	MH_DisableHook(MH_ALL_HOOKS);
 	MH_RemoveHook(MH_ALL_HOOKS);
-
-	// wait 2000ms
-	std::this_thread::sleep_for(std::chrono::milliseconds(2000));
-
 	MH_Uninitialize();
 
 	Logger::Info("Hooks removed");

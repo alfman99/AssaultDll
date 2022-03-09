@@ -11,11 +11,12 @@ void HackBase::Inject() {
 
 
 void HackBase::Deject() {
-
-	Logger::Terminate();
+		
 	Hook::Terminate();
 
-	// wait 2000ms
-	std::this_thread::sleep_for(std::chrono::milliseconds(2000));
+
+	Logger::Info("Closing...");
+	std::this_thread::sleep_for(std::chrono::milliseconds(1000)); // wait so you can read message
+	Logger::Terminate();
 
 }

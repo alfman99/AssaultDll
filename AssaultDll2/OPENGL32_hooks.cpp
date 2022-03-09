@@ -13,7 +13,7 @@ BOOL __stdcall Hook::Detour::h_wglSwapBuffers(HDC hDC) {
 
 
 	if (test % 60 == 0) {
-		Logger::Info("OPENGL hook working!");
+		Logger::Info("OPENGL hook working! :)");
 	}
 
 	test++;
