@@ -5,6 +5,7 @@
 int test = 0;
 bool HackBase::Options::MenuOpen = true;
 
+// Main loop for menu
 BOOL __stdcall Hook::Detour::h_wglSwapBuffers(HDC hDC) {
 
 	if (!HackBase::Options::MenuOpen) {

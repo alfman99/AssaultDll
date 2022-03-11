@@ -16,6 +16,15 @@
     <Filter Include="Archivos de origen\Hooks">
       <UniqueIdentifier>{9e6fb486-a3ab-47ec-8037-c18b5595a878}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Archivos de origen\Hacks">
+      <UniqueIdentifier>{a39f898b-3ab0-4b9b-9c17-96f3b49ef4b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Hacks\Weapon">
+      <UniqueIdentifier>{d80dbf32-37ed-47fb-90eb-fb2ef94e522e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Hacks\Player">
+      <UniqueIdentifier>{032d29df-144d-415e-a89b-b4114528aa75}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -46,6 +55,18 @@
     </ClCompile>
     <ClCompile Include="Hooks.cpp">
       <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="AmmoMods.cpp">
+      <Filter>Archivos de origen\Hacks\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Hacks.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Offsets.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerMods.cpp">
+      <Filter>Archivos de origen\Hacks\Player</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
