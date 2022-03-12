@@ -1,7 +1,7 @@
 <div id="top"></div>
 
-[![MIT License][license-shield]][license-url]
-[![MIT License][issues-shield]][issues-url]
+[![WTFPL License][license-shield]][license-url]
+[![Issues][issues-shield]][issues-url]
 
 
 <!-- PROJECT LOGO -->
@@ -171,10 +171,8 @@ Project Link: [https://github.com/alfman99/AssaultDll](https://github.com/alfman
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[issues-shield]: https://img.shields.io/github/issues/alfman99/AssaultDll.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/alfman99/AssaultDll.svg
 [issues-url]: https://github.com/alfman99/AssaultDll/issues
-[license-shield]: https://img.shields.io/github/license/alfman99/AssaultDll.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/alfman99/AssaultDll.svg
 [license-url]: https://github.com/alfman99/AssaultDll/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
 [product-screenshot]: images/screenshot.png
