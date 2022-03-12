@@ -88,6 +88,7 @@ AssaultDll is far from being perfect or complete, this project is about the proc
 
 This is an example of how to list things you need to use the software and how to install them.
 * Microsoft Visual Studio Community 2022 (64 bits) - Version 17.2.0 Preview 1.0
+* Assault Cube v1.3.0.1
 * MinHook .lib [MinHook Releases](https://github.com/TsudaKageyu/minhook/releases)
 * OpenGL32 .lib
 * Any dll injector
