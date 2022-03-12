@@ -129,7 +129,6 @@ This is an example of how to list things you need to use the software and how to
 
 - [ ] Game Hooks
   - [x] OPENGL32 wglSwapBuffers
-  - [ ] 
 
 - [ ] Game Functions
   - [x] Bottom screen messages
@@ -153,7 +152,7 @@ All pull requests adding new features to the project will be ignored, issues are
 <!-- LICENSE -->
 ## License
 
-Distributed under the WTFPL License. See `LICENSE.txt` for more information.
+Distributed under the WTFPL License. See [`LICENSE.txt`](https://github.com/alfman99/AssaultDll/blob/master/LICENSE.txt) for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
