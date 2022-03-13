@@ -1,7 +1,7 @@
 <div id="top"></div>
 
-[![MIT License][license-shield]][license-url]
-[![MIT License][issues-shield]][issues-url]
+[![WTFPL License][license-shield]][license-url]
+[![Issues][issues-shield]][issues-url]
 
 
 <!-- PROJECT LOGO -->
@@ -88,6 +88,7 @@ AssaultDll is far from being perfect or complete, this project is about the proc
 
 This is an example of how to list things you need to use the software and how to install them.
 * Microsoft Visual Studio Community 2022 (64 bits) - Version 17.2.0 Preview 1.0
+* Assault Cube v1.3.0.1
 * MinHook .lib [MinHook Releases](https://github.com/TsudaKageyu/minhook/releases)
 * OpenGL32 .lib
 * Any dll injector
@@ -129,7 +130,6 @@ This is an example of how to list things you need to use the software and how to
 
 - [ ] Game Hooks
   - [x] OPENGL32 wglSwapBuffers
-  - [ ] 
 
 - [ ] Game Functions
   - [x] Bottom screen messages
@@ -153,7 +153,7 @@ All pull requests adding new features to the project will be ignored, issues are
 <!-- LICENSE -->
 ## License
 
-Distributed under the WTFPL License. See `LICENSE.txt` for more information.
+Distributed under the WTFPL License. See [`LICENSE.txt`](https://github.com/alfman99/AssaultDll/blob/master/LICENSE.txt) for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -172,10 +172,8 @@ Project Link: [https://github.com/alfman99/AssaultDll](https://github.com/alfman
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[issues-shield]: https://img.shields.io/github/issues/alfman99/AssaultDll.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/alfman99/AssaultDll.svg
 [issues-url]: https://github.com/alfman99/AssaultDll/issues
-[license-shield]: https://img.shields.io/github/license/alfman99/AssaultDll.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/alfman99/AssaultDll.svg
 [license-url]: https://github.com/alfman99/AssaultDll/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
 [product-screenshot]: images/screenshot.png
