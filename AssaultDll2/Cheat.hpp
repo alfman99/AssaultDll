@@ -74,11 +74,10 @@ namespace Hacks {
 		void DisableInfiniteAmmo();
 	}
 
-
-
 }
 
 namespace Offsets {
+
 	namespace GameFunction {
 		extern DWORD ChatMessage;
 		extern DWORD BottomMessage;
@@ -87,4 +86,12 @@ namespace Offsets {
 	namespace Hacks {
 		extern DWORD DecreaseAmmo;
 	}
+
+}
+
+namespace Util {
+
+	void NopBytes(const DWORD address, const int count);
+	void PatchBytes(const DWORD address, const std::vector<BYTE>& bytes);
+
 }

@@ -7,6 +7,8 @@ void HackBase::Inject() {
 	GameFunction::Initialize();
 	Hook::Initialize();
 
+	Hacks::Weapon::EnableInfiniteAmmo();
+
 }
 
 
