@@ -176,6 +176,7 @@
     <ClCompile Include="AmmoMods.cpp" />
     <ClCompile Include="GameFunctions.cpp" />
     <ClCompile Include="Hacks.cpp" />
+    <ClCompile Include="Interface.cpp" />
     <ClCompile Include="Logger.cpp" />
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="HackBase.cpp" />

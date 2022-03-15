@@ -3,7 +3,9 @@
 
 void HackBase::Inject() {
 
+	// Order is important!
 	Logger::Initialize();
+	Interface::Initialize();
 	GameFunction::Initialize();
 	Hook::Initialize();
 
@@ -14,7 +16,9 @@ void HackBase::Inject() {
 
 void HackBase::Deject() {
 		
+	// Order is important!
 	Hook::Terminate();
+	Interface::Terminate();
 	Hacks::DisableAll();
 
 	Logger::Info("Closing...");

@@ -8,8 +8,16 @@
 #ifndef PCH_H
 #define PCH_H
 
+#include <iostream>
+#include <Windows.h>
+#include <thread>
+#include <chrono>
 
-// Link minhook lib
+#include <gl/GL.h>
+
+
+
+// Link libs
 #if _WIN64
 #pragma comment(lib, "libMinHook.x64.lib")
 #else
@@ -17,10 +25,5 @@
 #pragma comment(lib, "OpenGL32.lib")
 #endif
 
-#include <iostream>
-#include <Windows.h>
-#include <thread>
-#include <chrono>
-#include <gl/GL.h>
 
 #endif //PCH_H

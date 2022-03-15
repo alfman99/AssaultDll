@@ -10,6 +10,14 @@ namespace HackBase {
 	void Deject();
 }
 
+namespace Interface {
+	
+	void Initialize();
+	void Render();
+	void Terminate();
+
+}
+
 namespace Logger {
 
 	extern FILE* f;
