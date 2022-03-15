@@ -75,7 +75,6 @@ AssaultDll is far from being perfect or complete, this project is about the proc
 
 ### Built With
 
-* [ImGui](https://github.com/ocornut/imgui)
 * [MinHook](https://github.com/TsudaKageyu/minhook)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -169,9 +168,6 @@ Project Link: [https://github.com/alfman99/AssaultDll](https://github.com/alfman
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [issues-shield]: https://img.shields.io/github/issues/alfman99/AssaultDll.svg
 [issues-url]: https://github.com/alfman99/AssaultDll/issues
 [license-shield]: https://img.shields.io/github/license/alfman99/AssaultDll.svg
